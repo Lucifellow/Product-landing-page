@@ -1,0 +1,293 @@
+
+@media(min-width:721px){
+	.img_setting{
+		background-size:100vw;
+		background-repeat:no-repeat;
+		width:100%;
+		height:80vh;
+	}
+}
+
+@media(max-width:720px){
+	.img_setting{
+		background-size:100vw;
+		background-repeat:no-repeat;
+		width:100%;
+		height:40vh;
+	}
+}
+
+.button_decoration{
+	color:white;
+	background-color:#FC6600;
+	border:none;
+	border-radius:10px;
+}
+
+.padding_button{
+	display:flex;
+	justify-content:center;
+	padding-bottom:1vw;
+}
+.price_flex{
+	display:flex;
+	border:1px solid black;
+	flex-direction:column;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content:center;
+	width:15%;
+}
+
+.price_header{
+	color:white;
+	background-color:#003791;
+	text-align:center;
+}
+
+.price_description{
+	text-align:center;
+	
+}
+
+.big_white_font{
+	font-size:10vw;
+	text-align:center;
+	color:white;
+}
+
+.nav-link{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:22px;
+	
+}
+html{
+		scroll-behavior:smooth;
+}
+body{
+	font-family:Electrolize;
+
+}
+header{
+	top:0;
+	display:flex;
+	background-color:white;
+	position:fixed;
+	padding:0;
+	justify-content:space-around;
+	width:100%;
+}
+
+#header-img{
+	width:100%;
+	height:auto;
+	max-width:160px;
+	
+
+}
+
+
+
+ul{
+	display:flex;
+	flex-direction:row;
+
+	list-style-type:none;
+	padding-top:3vh;
+	padding-bottom:5vh;
+	justify-content:space-around;
+
+}
+li{
+	padding:2vh;
+}
+
+#features_link{
+	margin-left:20vw;
+}
+
+@media(max-width:720px){
+	#header-img{
+		width:50%;
+		height:auto;
+		max-width:160px;
+	}
+	
+	ul{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	li{
+		padding:0vh;
+	}
+	
+	#features_link{
+		margin-left:0vw;
+	}
+}
+
+a:hover{
+	animation-name:color;
+	animation-duration:500ms;
+	animation-fill-mode:forwards;
+}
+
+@keyframes color{
+	100%{
+			background-color:black;
+			color:white;
+	}
+}
+#video{
+	width:640px;
+	height:480px;
+	padding-top:25vh;
+	border:none;
+}
+@media(max-width:720px){
+	#video{
+		width:412px;
+		height:320px;
+		padding-top:25vh;
+		border:none;
+	}
+	
+}
+#vidcontainer{
+	display:flex;
+	justify-content:center;
+}
+h2{
+	text-align:center;
+}
+
+
+@media(min-width:720px){
+
+	#feature1{
+		display:flex;
+		flex-direction:column;
+		margin-left:40vh;
+		margin-right:20vh;
+	}
+
+	#feature2{
+		display:flex;
+		flex-direction:column;
+		margin-left:20vh;
+		margin-right:20vh;
+	}
+
+	#feature12{
+		display:flex;
+		flex-direction:row;
+	}
+	#feature3{
+		display:flex;
+		flex-direction:column;
+		margin-left:40vh;
+		margin-right:20vh;
+	}
+
+	#feature4{
+		display:flex;
+		flex-direction:column;
+		margin-left:20vh;
+		margin-right:20vh;
+	}
+	
+	#feature34{
+		display:flex;
+		flex-direction:row;
+	}
+	
+}
+
+#godofwar{
+	background-image:url("https://i.imgur.com/nJ2gm8M.jpg");	
+}
+
+#spiderman{
+	background-image:url("https://games.mxdwn.com/wp-content/uploads/2018/09/marvels-spider-man-hero-banner-02-ps4-us-16jul18.jpg");
+}
+
+#lastofus{
+	background-image:url("https://cdn.mos.cms.futurecdn.net/gXMT3NvriqiKAPoapwZZ9h.jpg");
+}
+
+#deathstranding{
+	background-image:url("https://hdwallsource.com/img/2019/6/death-stranding-wallpaper-68106-70431-hd-wallpapers.jpg");
+}
+
+#form{
+	padding-top:5vh;
+}
+
+#price_container{
+	display:flex;
+	flex-direction:row;
+}
+
+@media(max-width:720px){
+	#price_container{
+		display:flex;
+		flex-direction:column;
+	}
+	#resize_container1{
+		width:50%;
+		margin-bottom:5vh;
+	}
+	#resize_container2{
+		width:50%;
+		margin-bottom:5vh;
+	}
+	#resize_container3{
+		width:50%;
+		margin-bottom:5vh;
+	}
+	
+}
+
+
+#email_container{
+	display:flex;
+	flex-direction:column;
+
+}
+
+#email_label{
+	font-weight:bold;
+	text-align:center;
+	padding-bottom:2vh;
+}
+
+#email{
+	width:18vw;
+	margin-left:40%;
+}
+
+#submitbutton{
+	display:flex;
+	justify-content:center;
+	padding-top:1vw;
+}
+
+#submit{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#referencedesc{
+	padding-top:2vh;
+	text-align:center;
+	font-weight:bold;
+}
+
+#ps4website{
+	text-decoration:none;
+	color:#003791;
+}
+
