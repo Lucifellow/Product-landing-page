@@ -21,14 +21,14 @@
 	color:white;
 	background-color:#FC6600;
 	border:none;
-	padding:10px;
+	padding:1vw;
 	border-radius:10px;
 }
 
 .padding_button{
 	display:flex;
 	justify-content:center;
-	padding-bottom:1vw;
+	padding:1vw;
 }
 .price_flex{
 	display:flex;
